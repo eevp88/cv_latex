@@ -1,0 +1,303 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{xcolor}
+
+\usepackage[utf8]{inputenc}     % Especifica codificación del archivo fuente (UTF-8)
+\usepackage[T1]{fontenc}        % Usa codificación de fuente T1 (mejor para caracteres latinos)
+\usepackage[spanish]{babel}        
+%%\usepackage[scale=0.85]{geometry}
+
+%----------FONT OPTIONS----------
+% sans-serif
+%\usepackage[sfdefault]{FiraSans}
+%\usepackage[sfdefault]{roboto}
+%\usepackage[sfdefault]{noto-sans}
+%\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    #1 
+  }
+}
+
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \vspace{-2pt}
+  \hspace{1em}
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    {\color{gray!40!black}\textbf{\small #1}} & \small\textit{#2} \\
+  \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+       #3 & #4 \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=3em]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Enzo Edgardo Vera Pagnard} \\ \vspace{1pt}
+    Desarrollador Full-Stack | Ingeniero de Software | Líder Técnico\\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faWhatsapp\ +56994314999 ~ 
+    Valdivia, Chile ~ 
+    \href{mailto:enzo_edgardo@hotmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{enzo\_edgardo@hotmail.com}} ~ 
+    % \href{https://eevp.dev/}{\raisebox{-0.2\height}\faDesktop\ \underline{eevp.dev}} ~ 
+    \href{https://www.linkedin.com/in/enzoverapagnard/}{\raisebox{-0.2\height}\faLinkedin\ \underline{Enzo Vera}}  ~
+    \href{https://github.com/eevp88}{\raisebox{-0.2\height}\faGithub\ \underline{eevp88}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------RESUMEN-----------------
+
+\section{Resumen Profesional}
+Ingeniero Civil en Informática con 7 años de experiencia desarrollando soluciones tecnológicas orientadas a la eficiencia operativa en sectores logístico-industriales.  
+He liderado equipos de 4 personas en entornos ágiles, gestionando proyectos desde la toma de requerimientos hasta el soporte en producción. 
+Mis desarrollos han impactado directamente en la trazabilidad logística de más de 400 viajes diarios y la emisión de guías de despacho y recepción de madera, con un volumen superior a 80.000 guías mensuales.
+
+%-----------EXPERIENCE-----------
+\section{Experiencia}
+    \resumeSubHeadingListStart
+      \resumeSubheading{West Ingenieria}{Valdivia, Chile}
+        \resumeSubSubheading{Líder Técnico}{ago 2024 - mar 2025}
+          \resumeItemListStart
+              \resumeItem{Lideré un equipo ágil de desarrollo conformado por 4 desarrolladores, asignando tareas según fortalezas individuales y prioridades técnicas.}
+              \resumeItem{Coordiné la comunicación con áreas internas y clientes, asegurando el cumplimiento del 100\% de los SLA acordados con clientes.}
+              \resumeItem{Promoví buenas prácticas de desarrollo y crecimiento profesional en el equipo.}
+          \resumeItemListEnd
+        \resumeSubSubheading{Ingeniero de Software}{may 2017 - ago 2024}
+          \resumeItemListStart
+            \resumeItem{Proyecto: Fueltrack - Enex S.A}
+              \resumeItemListStart
+                  \resumeItem{Desarrollé módulos frontend y backend para un sistema que gestiona y controla más de 400 viajes diarios de una flota de 800 camiones.}
+                  \resumeItem{Integré la plataforma con JD Edwards y Power BI, habilitando reportería logística en tiempo real.}
+                  \resumeItem{Administré bases de datos Oracle y brindé soporte ante incidentes críticos en producción.}
+              \resumeItemListEnd 
+            \resumeItem{Proyecto: Forestruck7 - Forestal Arauco, Forestal y Maderas Anchile, Trans Pacific Fibre, entre otros.}
+              \resumeItemListStart
+                  \resumeItem{Participé en el diseño funcional y técnico de un módulo que emite más de 80.000 guías mensuales para recepción y despacho de madera.}
+                  \resumeItem{Automatizé el cálculo de proformas para transportistas, reduciendo el tiempo administrativo en un 60\%.}
+                  \resumeItem{Implementé integración con Wing Suite para alimentar aplicaciones móviles de despacho y cosecha.} 
+              \resumeItemListEnd 
+            \resumeItem{Proyecto: Wing Suite - Unilever, Colun, entre otros.}
+              \resumeItemListStart
+                \resumeItem{Realicé un módulo para la gestión y control de la logística de patio, optimizando la coordinación en más de 100 operaciones diarias de embarque y desembarque.}
+                \resumeItem{Implementé lógica de negocio para la solicitud automatizada de documentos operativos, reduciendo tareas manuales, errores y demoras administrativas.}
+                \resumeItem{Diseñé e implementé el enrolamiento de camiones y control de asignación de tokens para la recepción de datos GPS, eliminando duplicidad de datos y mejorando la trazabilidad.}                
+              \resumeItemListEnd 
+          \resumeItemListEnd
+
+        %\resumeSubHeadingListEnd
+
+       %Compañía 2
+      %  \resumeSubheading{Universidad Austral de Chile}{Valdivia, Chile}
+        %\resumeSubHeadingListStart
+       %     \resumeSubSubheading{Asesor en TI}{2014 - 2017}
+       %       \resumeItemListStart
+       %         \resumeItem{Soporte técnico y Mantenimiento de sitio web institucional en la Facultad de Ciencias Jurídicas y Sociales.}  
+                %\resumeItem{Apoyo a la docencia en laboratorios, clases prácticas y toma de pruebas en la Facultad de Ciencias de la Ingeniería.}   
+        %      \resumeItemListEnd
+           % \resumeSubSubheading{Ayudante de Física y Programacíon}{2009 - 2014}
+        %\resumeSubHeadingListEnd
+
+       %Compañía 2
+      \resumeSubheading{Bolsa de Comercio de Santiago}{Santiago, Chile}
+           \resumeSubSubheading{Practicante}{ene 2013 - mar 2013}
+             \resumeItemListStart
+               \resumeItem{Desarrollé de documentación de sistema de transacción de Fondos Mutuos(FFMM).}  
+               \resumeItem{Realice mantención y soporte de Sistema de Transacción de FFMM.}   
+             \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\vspace{-10pt}
+
+
+%-----------EDUCATION-----------
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading {Universidad Austral de Chile}{2006 - 2013}
+     {Ingeniería Civil en Informática}{Valdivia, Chile}
+  \resumeSubHeadingListEnd
+
+\begin{comment}
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Software Methodology
+                \item Algorithms Analysis
+                \item Database Management
+                \item Artificial Intelligence
+                \item Internet Technology
+                \item Systems Programming
+                \item Computer Architecture
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Gym Reservation Bot} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2021}
+          \resumeItemListStart
+            \resumeItem{Developed an automatic bot using Python and Google Cloud Console to register myself for a timeslot at my school gym.}
+            \resumeItem{Implemented Selenium to create an instance of Chrome in order to interact with the correct elements of the web page.}
+            \resumeItem{Created a Linux virtual machine to run on Google Cloud so that the program is able to run everyday from the cloud.}
+            \resumeItem{Used Cron to schedule the program to execute automatically at 11 AM every morning so a reservation is made for me.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Ticket Price Calculator App} $|$ \emph{Java, Android Studio}}{November 2020}
+          \resumeItemListStart
+            \resumeItem{Created an Android application using Java and Android Studio to calculate ticket prices for trips to museums in NYC.}
+            \resumeItem{Processed user inputted information in the back-end of the app to return a subtotal price based on the tickets selected.}
+            \resumeItem{Utilized the layout editor to create a UI for the application in order to allow different scenes to interact with each other.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Transaction Management GUI} $|$ \emph{Java, Eclipse, JavaFX}}{October 2020}
+          \resumeItemListStart
+            \resumeItem{Designed a sample banking transaction system using Java to simulate the common functions of using a bank account.}
+            \resumeItem{Used JavaFX to create a GUI that supports actions such as creating an account, deposit, withdraw, list all acounts, etc.}
+            \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+\end{comment}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Habilidades}
+ \begin{itemize}[leftmargin=0in,  label={}] %,
+    \small{
+      \item{
+        \textbf{Lenguajes \& Frameworks}{: JavaScript, TypeScript, Nodejs, PL/SQL Oracle,  HTML, CSS, Astro, \LaTeX} \\
+        \textbf{Bases de datos}{: Oracle, PostgreSQL, MySQL, MongoDB} \\
+        \textbf{Herramientas}{: Git, Docker} \\
+        \textbf{Metodologías}{: Scrum, Kanban} \\
+      }
+     }
+ \end{itemize}
+ \vspace{-16pt}
+
+\begin{comment}
+  %-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+            \resumeItemListStart
+                \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+                \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+                \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+ \end{comment}
+
+\end{document}
