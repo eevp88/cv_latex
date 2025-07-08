@@ -1,9 +1,9 @@
-PWD /home/enzo/Latex-WorkSpace/CV_EEVP
+PWD /home/enzo/Latex-WorkSpace/cv_latex/cv_latex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/enzo/Latex-WorkSpace/CV_EEVP/cvEnzoVera.tex
+INPUT /home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex
 OUTPUT build/cvEnzoVera.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -143,6 +143,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.te
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-es.ini
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT build/cvEnzoVera.aux
 INPUT build/cvEnzoVera.aux
 INPUT build/cvEnzoVera.aux

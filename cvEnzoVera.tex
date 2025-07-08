@@ -28,6 +28,7 @@
 \usepackage[T1]{fontenc}        % Usa codificación de fuente T1 (mejor para caracteres latinos)
 \usepackage[spanish]{babel}        
 %%\usepackage[scale=0.85]{geometry}
+\usepackage{ragged2e} % Para justificar texto
 
 %----------FONT OPTIONS----------
 % sans-serif
@@ -59,6 +60,7 @@
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
+\setlength{\footskip}{4.08003pt}
 
 % Sections formatting
 \titleformat{\section}{
@@ -151,10 +153,11 @@
 %-----------RESUMEN-----------------
 
 \section{Resumen Profesional}
+\begin{justify}
 Ingeniero Civil en Informática con 7 años de experiencia desarrollando soluciones tecnológicas orientadas a la eficiencia operativa en sectores logístico-industriales.  
 He liderado equipos de 4 personas en entornos ágiles, gestionando proyectos desde la toma de requerimientos hasta el soporte en producción. 
 Mis desarrollos han impactado directamente en la trazabilidad logística de más de 400 viajes diarios y la emisión de guías de despacho y recepción de madera, con un volumen superior a 80.000 guías mensuales.
-
+\end{justify}
 %-----------EXPERIENCE-----------
 \section{Experiencia}
     \resumeSubHeadingListStart
@@ -245,7 +248,7 @@ Mis desarrollos han impactado directamente en la trazabilidad logística de más
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://enzovera.dev/}{\raisebox{-0.2\height}\faDesktop\ \underline{enzovera.dev}} $|$ \emph{Astro, JavaScript, HTML5,CSS, Vercel}}}{Mayo 2025}
+          {\textbf{\href{https://enzovera.dev/}{\raisebox{-0.2\height}\faDesktop\ \underline{enzovera.dev}} $|$ \emph{Astro, JavaScript, HTML5, CSS, Vercel}}}{Mayo 2025}
           \resumeItemListStart
             \resumeItem{Sitio web personal desarrollado con Astro, un framework moderno para crear sitios web rápidos y optimizados.}
             \resumeItem{Con un diseño responsivo, una interfaz amigable y minimalista, el sitio tiene una formato de curriculum vitae. Además cuenta con una paleta de comandos que permite realizar aciones como imprimir el CV, cambiar el tema de color o visitar perfiles de redes sociales profesionales.}
@@ -279,7 +282,7 @@ Mis desarrollos han impactado directamente en la trazabilidad logística de más
  \begin{itemize}[leftmargin=0in,  label={}] %,
     \small{
       \item{
-        \textbf{Lenguajes \& Frameworks}{: JavaScript, TypeScript, Nodejs, PL/SQL Oracle,  HTML, CSS, Astro, \LaTeX} \\
+        \textbf{Lenguajes \& Frameworks}{: JavaScript, TypeScript, Nodejs, PL/SQL Oracle,  HTML, CSS, Astro, PHP, Java \LaTeX} \\
         \textbf{Bases de datos}{: Oracle, PostgreSQL, MySQL, MongoDB} \\
         \textbf{Herramientas}{: Git, Docker} \\
         \textbf{Metodologías}{: Scrum, Kanban} \\

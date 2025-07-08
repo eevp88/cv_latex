@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.7)  2 JUN 2025 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.7)  8 JUL 2025 09:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/enzo/Latex-WorkSpace/CV_EEVP/cvEnzoVera.tex
-(/home/enzo/Latex-WorkSpace/CV_EEVP/cvEnzoVera.tex
+**/home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex
+(/home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -334,30 +334,46 @@ Package babel Info: Making > an active character on input line 722.
 )) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip68
+\RaggedLeftLeftskip=\skip69
+\RaggedRightLeftskip=\skip70
+\CenteringRightskip=\skip71
+\RaggedLeftRightskip=\skip72
+\RaggedRightRightskip=\skip73
+\CenteringParfillskip=\skip74
+\RaggedLeftParfillskip=\skip75
+\RaggedRightParfillskip=\skip76
+\JustifyingParfillskip=\skip77
+\CenteringParindent=\skip78
+\RaggedLeftParindent=\skip79
+\RaggedRightParindent=\skip80
+\JustifyingParindent=\skip81
 ) (build/cvEnzoVera.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `cvEnzoVera.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
@@ -372,80 +388,70 @@ LaTeX Font Info:    ... okay on input line 131.
 \makeMPintoPDFobject=\count295
 \everyMPtoPDFconversion=\toks29
 )
-Package hyperref Info: Link coloring OFF on input line 131.
+Package hyperref Info: Link coloring OFF on input line 133.
  (build/cvEnzoVera.out) (build/cvEnzoVera.out)
 \@outlinefile=\write3
 \openout3 = `cvEnzoVera.out'.
 
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 142.
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 144.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 142.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 144.
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 144.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 146.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 144.
+(Font)              <7> on input line 146.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 144.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 144.
+(Font)              <5> on input line 146.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 146.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 145.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 146.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 148.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 146.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 148.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 161.
+(Font)              <10.95> on input line 164.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 161.
+(Font)              <8> on input line 164.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 161.
+(Font)              <6> on input line 164.
 
-Overfull \hbox (13.3095pt too wide) in paragraph at lines 161--163
+Overfull \hbox (13.3095pt too wide) in paragraph at lines 164--166
   []  
  []
 
 
-Overfull \hbox (13.3095pt too wide) in paragraph at lines 168--169
+Overfull \hbox (13.3095pt too wide) in paragraph at lines 171--172
   []  
  []
 
 
-Overfull \hbox (13.3095pt too wide) in paragraph at lines 193--195
+Overfull \hbox (13.3095pt too wide) in paragraph at lines 196--198
   []  
  []
 
 
-Overfull \hbox (13.3095pt too wide) in paragraph at lines 198--199
+Overfull \hbox (13.3095pt too wide) in paragraph at lines 201--202
   []  
  []
 
 
-Overfull \hbox (13.3095pt too wide) in paragraph at lines 204--206
+Overfull \hbox (13.3095pt too wide) in paragraph at lines 207--209
   []  
  []
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 248--249
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 251--252
 []  
  []
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [2] (build/cvEnzoVera.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -459,15 +465,15 @@ Package rerunfilecheck Info: File `cvEnzoVera.out' has not changed.
 (rerunfilecheck)             Checksum: EB5551DF92F2911C02D3B85C6A7C399E;516.
  ) 
 Here is how much of TeX's memory you used:
- 14989 strings out of 474222
- 253370 string characters out of 5748734
+ 15078 strings out of 474222
+ 255350 string characters out of 5748734
  1949975 words of memory out of 5000000
- 37051 multiletter control sequences out of 15000+600000
+ 37136 multiletter control sequences out of 15000+600000
  572905 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,376b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,386b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on build/cvEnzoVera.pdf (2 pages, 209395 bytes).
+Output written on build/cvEnzoVera.pdf (2 pages, 209463 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream

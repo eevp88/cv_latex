@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1748898344.38269 "/home/enzo/Latex-WorkSpace/CV_EEVP/cvEnzoVera.tex" "build/cvEnzoVera.pdf" "cvEnzoVera" 1748898344.89893 0
+["pdflatex"] 1751980009.32348 "/home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex" "build/cvEnzoVera.pdf" "cvEnzoVera" 1751980009.92845 0
   "/etc/texmf/web2c/texmf.cnf" 1744081667.53984 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/enzo/Latex-WorkSpace/CV_EEVP/cvEnzoVera.tex" 1748898344.1908 13616 8f4e6967c1357a14b6c65cc960c81c05 ""
+  "/home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex" 1751980009.12772 13738 8b6617aef36edfabb6e9b2209bc07c17 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -102,6 +102,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1696969620 9327 c30c00c0072edba199ede5889311aaa9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty" 1333989323 9393 ceaf2ea8eb2c81fdb168323fc5fffc89 ""
   "/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty" 1687466457 10085 3dececaeed388e31285c366e124c0c4e ""
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty" 1698436711 48766 0b93839be28e9744a24c45075c75b2e2 ""
@@ -125,9 +126,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1744081685.15759 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1744081720 8213453 725d10dd4ce654a057934b2007a71057 ""
-  "build/cvEnzoVera.aux" 1748898344.83382 869 dca6ec62418cd0974aa7d70e2bccc0ab "pdflatex"
-  "build/cvEnzoVera.out" 1748898344.83482 516 eb5551df92f2911c02d3b85c6a7c399e "pdflatex"
-  "cvEnzoVera.tex" 1748898344.1908 13616 8f4e6967c1357a14b6c65cc960c81c05 ""
+  "build/cvEnzoVera.aux" 1751980009.85676 869 dca6ec62418cd0974aa7d70e2bccc0ab "pdflatex"
+  "build/cvEnzoVera.out" 1751980009.85776 516 eb5551df92f2911c02d3b85c6a7c399e "pdflatex"
+  "cvEnzoVera.tex" 1751980009.12772 13738 8b6617aef36edfabb6e9b2209bc07c17 ""
   (generated)
   "build/cvEnzoVera.aux"
   "build/cvEnzoVera.log"
