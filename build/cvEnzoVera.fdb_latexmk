@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1751980258.88359 "/home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex" "build/cvEnzoVera.pdf" "cvEnzoVera" 1751980259.37862 0
+["pdflatex"] 1751980469.13172 "/home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex" "build/cvEnzoVera.pdf" "cvEnzoVera" 1751980469.64999 0
   "/etc/texmf/web2c/texmf.cnf" 1744081667.53984 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex" 1751980258.68529 13740 11086dd7229e0e117de672b76eeaaa7d ""
+  "/home/enzo/Latex-WorkSpace/cv_latex/cv_latex/cvEnzoVera.tex" 1751980468.93226 13752 0543c284f1f762dfd927f879a7f9fdda ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -126,9 +126,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1744081685.15759 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1744081720 8213453 725d10dd4ce654a057934b2007a71057 ""
-  "build/cvEnzoVera.aux" 1751980259.31333 869 dca6ec62418cd0974aa7d70e2bccc0ab "pdflatex"
-  "build/cvEnzoVera.out" 1751980259.31433 516 eb5551df92f2911c02d3b85c6a7c399e "pdflatex"
-  "cvEnzoVera.tex" 1751980258.68529 13740 11086dd7229e0e117de672b76eeaaa7d ""
+  "build/cvEnzoVera.aux" 1751980469.5833 869 dca6ec62418cd0974aa7d70e2bccc0ab "pdflatex"
+  "build/cvEnzoVera.out" 1751980469.5843 516 eb5551df92f2911c02d3b85c6a7c399e "pdflatex"
+  "cvEnzoVera.tex" 1751980468.93226 13752 0543c284f1f762dfd927f879a7f9fdda ""
   (generated)
   "build/cvEnzoVera.aux"
   "build/cvEnzoVera.log"
