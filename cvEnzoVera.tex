@@ -17,16 +17,22 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
+%\usepackage{fontawesome5}
 % \usepackage{multicol}
 % \setlength{\multicolsep}{-3.0pt}
 % \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 \usepackage{xcolor}
+\usepackage[spanish]{babel}   
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Usa la fuente Latin Modern (mejor que la fuente por defecto)
+%\usepackage{kpfonts}
 
-\usepackage[utf8]{inputenc}     % Especifica codificación del archivo fuente (UTF-8)
-\usepackage[T1]{fontenc}        % Usa codificación de fuente T1 (mejor para caracteres latinos)
-\usepackage[spanish]{babel}        
+\usepackage{wasysym}   % para \textphone
+\usepackage{marvosym}  % para \Envelope
+
+
 %%\usepackage[scale=0.85]{geometry}
 \usepackage{ragged2e} % Para justificar texto
 
@@ -67,7 +73,7 @@
   \vspace{-4pt}\scshape\raggedright\large\bfseries
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
+% Ensure that generate pdf is machine readable/ATS parsabl
 \pdfgentounicode=1
 
 %-------------------------
@@ -120,6 +126,8 @@
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemiii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -129,6 +137,9 @@
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\usepackage{newunicodechar}
+\newunicodechar{☎}{\textphone} % o define cómo se mostrará
+\newunicodechar{✉}{\Envelope} % o define cómo se mostrará
 
 \begin{document}
 
@@ -138,6 +149,7 @@
 %   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
 % \end{tabular*}
 
+\begin{comment}
 \begin{center}
     {\Huge \scshape Enzo Edgardo Vera Pagnard} \\ \vspace{1pt}
     Desarrollador Backend | Desarrollador Full-Stack | Ingeniero de Software | Líder de Equipo\\ \vspace{1pt}
@@ -148,6 +160,19 @@
     \href{https://www.linkedin.com/in/enzoverapagnard/}{\raisebox{-0.2\height}\faLinkedin\ \underline{Enzo Vera}}~
     \href{https://github.com/eevp88}{\raisebox{-0.2\height}\faGithub\ \underline{eevp88}}
     \vspace{-6pt}
+\end{center} 
+\end{comment}
+
+\begin{center}
+  %\scshape
+  {\Huge Enzo Edgardo Vera Pagnard} \\[4pt]
+  Desarrollador Backend | Desarrollador Full-Stack | Ingeniero de Software | Líder de Equipo\\[6pt]
+  \small
+  Tel.:+56994314999\ \textbar\ Valdivia, Chile\ \textbar\ 
+  Email:\href{mailto:contacto@enzovera.dev}{contacto@enzovera.dev}\ \textbar\ 
+  Web:\href{https://enzovera.dev}{enzovera.dev}\ \textbar\ 
+  LinkedIn:\href{https://www.linkedin.com/in/enzoverapagnard/}{Enzo Vera}\ \textbar\ 
+  GitHub:\href{https://github.com/eevp88}{eevp88}
 \end{center}
 
 %-----------RESUMEN-----------------
@@ -248,7 +273,7 @@ Mis desarrollos han impactado directamente en la trazabilidad logística de más
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://enzovera.dev/}{\raisebox{-0.2\height}\faDesktop\ \underline{enzovera.dev}} $|$ \emph{Astro, JavaScript, HTML5, CSS, Vercel}}}{Mayo 2025}
+          {\textbf{\href{https://enzovera.dev/}{enzovera.dev}} $|$ \emph{Astro, JavaScript, HTML5, CSS, Vercel}}{05-2025}
           \resumeItemListStart
             \resumeItem{Sitio web personal desarrollado con Astro, un framework moderno para crear sitios web rápidos y optimizados.}
             \resumeItem{Con un diseño responsivo, una interfaz amigable y minimalista, el sitio tiene una formato de curriculum vitae. Además cuenta con una paleta de comandos que permite realizar aciones como imprimir el CV, cambiar el tema de color o visitar perfiles de redes sociales profesionales.}
