@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.12.3)  9 DEC 2025 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.12.3)  11 DEC 2025 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -308,10 +308,8 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedLeftParindent=\skip76
 \RaggedRightParindent=\skip77
 \JustifyingParindent=\skip78
-) (/usr/share/texlive/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
-Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 144.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 142.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -324,24 +322,24 @@ LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `cvEnzoVera.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count276
@@ -356,7 +354,7 @@ LaTeX Font Info:    ... okay on input line 144.
 \makeMPintoPDFobject=\count281
 \everyMPtoPDFconversion=\toks28
 )
-Package hyperref Info: Link coloring OFF on input line 144.
+Package hyperref Info: Link coloring OFF on input line 142.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -366,89 +364,89 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 144.
-LaTeX Info: Redefining \pageref on input line 144.
-LaTeX Info: Redefining \nameref on input line 144.
+LaTeX Info: Redefining \ref on input line 142.
+LaTeX Info: Redefining \pageref on input line 142.
+LaTeX Info: Redefining \nameref on input line 142.
  (build/cvEnzoVera.out) (build/cvEnzoVera.out)
 \@outlinefile=\write3
 \openout3 = `cvEnzoVera.out'.
 
-LaTeX Info: Redefining \. on input line 144.
-LaTeX Info: Redefining \% on input line 144.
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
 
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 180.
+(Font)              using `T1/lmr/bx/n' instead on input line 178.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 183.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 181.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 183.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 181.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 183.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 181.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 183.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 181.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 183.
+(Font)              <10.95> on input line 181.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 183.
+(Font)              <8> on input line 181.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 183.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 183.
+(Font)              <6> on input line 181.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 181.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 183.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 181.
  (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 191--193
-  []  
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 194.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 195.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 195.
-
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 200--202
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 189--191
   []  
  []
 
 
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 208--209
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 198--200
   []  
  []
 
+
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 206--207
+  []  
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 210.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 210.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 210.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 235--237
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 233--235
   []  
  []
 
 
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 241--243
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 239--241
   []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 285--286
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 283--284
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 296--297
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 294--295
 []  
  []
 
@@ -463,15 +461,15 @@ Package rerunfilecheck Info: File `cvEnzoVera.out' has not changed.
 (rerunfilecheck)             Checksum: FE8D51F5E00E140ED705AAE6DC62D76E;574.
  ) 
 Here is how much of TeX's memory you used:
- 11821 strings out of 480247
- 183703 string characters out of 5896151
- 501402 words of memory out of 5000000
- 29576 multiletter control sequences out of 15000+600000
+ 11784 strings out of 480247
+ 182702 string characters out of 5896151
+ 500651 words of memory out of 5000000
+ 29542 multiletter control sequences out of 15000+600000
  524910 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,11n,63p,414b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb>
-Output written on build/cvEnzoVera.pdf (2 pages, 151594 bytes).
+Output written on build/cvEnzoVera.pdf (2 pages, 151727 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
