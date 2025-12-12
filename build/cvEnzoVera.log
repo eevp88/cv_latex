@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.12.3)  4 DEC 2025 00:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.12.3)  9 DEC 2025 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/enzo/workSpaceLatex/cv_latex/cvEnzoVera.tex
-(/home/enzo/workSpaceLatex/cv_latex/cvEnzoVera.tex
+**/home/eevp/workspaceLatex/cv_latex-1/cvEnzoVera.tex
+(/home/eevp/workspaceLatex/cv_latex-1/cvEnzoVera.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -225,12 +225,22 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count272
 \U@D=\dimen156
-\l@unhyphenated=\language6
+\l@unhyphenated=\language3
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count273
  (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
+Package babel Info: Hyphen rules for 'spanish' set to \l@english
+(babel)             (\language0). Reported on input line 52.
 \es@quottoks=\toks24
 \es@quotdepth=\count274
 Package babel Info: Making " an active character on input line 570.
@@ -368,77 +378,77 @@ LaTeX Info: Redefining \% on input line 144.
 
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 182.
+(Font)              using `T1/lmr/bx/n' instead on input line 180.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 187.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 183.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 187.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 183.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 187.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 183.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 187.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 183.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 187.
+(Font)              <10.95> on input line 183.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 187.
+(Font)              <8> on input line 183.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 187.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 187.
+(Font)              <6> on input line 183.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 183.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 187.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 183.
  (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 191--193
+  []  
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 194.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 195.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 195.
+
 Overfull \hbox (13.38333pt too wide) in paragraph at lines 200--202
   []  
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 203.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 204.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 204.
 
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 209--211
-  []  
- []
-
-
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 217--218
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 208--209
   []  
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 244--246
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 235--237
   []  
  []
 
 
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 250--252
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 241--243
   []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 294--295
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 285--286
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 305--306
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 296--297
 []  
  []
 
@@ -453,18 +463,18 @@ Package rerunfilecheck Info: File `cvEnzoVera.out' has not changed.
 (rerunfilecheck)             Checksum: FE8D51F5E00E140ED705AAE6DC62D76E;574.
  ) 
 Here is how much of TeX's memory you used:
- 11817 strings out of 480185
- 183628 string characters out of 5894213
- 504542 words of memory out of 5000000
- 29580 multiletter control sequences out of 15000+600000
+ 11821 strings out of 480247
+ 183703 string characters out of 5896151
+ 501402 words of memory out of 5000000
+ 29576 multiletter control sequences out of 15000+600000
  524910 words of font info for 71 fonts, out of 8000000 for 9000
- 40 hyphenation exceptions out of 8191
- 60i,11n,63p,412b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 60i,11n,63p,414b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb>
-Output written on build/cvEnzoVera.pdf (2 pages, 152335 bytes).
+Output written on build/cvEnzoVera.pdf (2 pages, 151594 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
