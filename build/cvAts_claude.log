@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.12.3)  17 DEC 2025 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.12.3)  17 DEC 2025 18:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/eevp/workspaceLatex/cv_latex-1/cvEnzoVera.tex
-(/home/eevp/workspaceLatex/cv_latex-1/cvEnzoVera.tex
+**/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex
+(/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -219,6 +219,12 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count272
@@ -239,19 +245,13 @@ Package babel Warning: No hyphenation patterns were preloaded for
 
 Package babel Info: Hyphen rules for 'spanish' set to \l@english
 (babel)             (\language0). Reported on input line 52.
-\es@quottoks=\toks24
+\es@quottoks=\toks26
 \es@quotdepth=\count274
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks25
-\inpenc@posthook=\toks26
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+)) (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -285,13 +285,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
-Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
-\symwasy=\mathgroup5
-LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
-(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
-) (/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
-Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 ) (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \CenteringLeftskip=\skip65
@@ -309,37 +302,34 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedRightParindent=\skip77
 \JustifyingParindent=\skip78
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 129.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 95.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box54
-) (build/cvEnzoVera.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-)
-\openout1 = `cvEnzoVera.aux'.
+) (build/cvAts_claude.aux)
+\openout1 = `cvAts_claude.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count276
@@ -354,7 +344,7 @@ LaTeX Font Info:    ... okay on input line 129.
 \makeMPintoPDFobject=\count281
 \everyMPtoPDFconversion=\toks28
 )
-Package hyperref Info: Link coloring OFF on input line 129.
+Package hyperref Info: Link coloring OFF on input line 95.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -364,115 +354,331 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
-LaTeX Info: Redefining \nameref on input line 129.
- (build/cvEnzoVera.out) (build/cvEnzoVera.out)
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 \@outlinefile=\write3
-\openout3 = `cvEnzoVera.out'.
+\openout3 = `cvAts_claude.out'.
 
-LaTeX Info: Redefining \. on input line 129.
-LaTeX Info: Redefining \% on input line 129.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
 
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 165.
+(Font)              using `T1/lmr/bx/n' instead on input line 108.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 167.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 124.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 167.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 124.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 167.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 124.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 167.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 124.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 167.
+(Font)              <10> on input line 124.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 167.
+(Font)              <7> on input line 124.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 167.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 167.
+(Font)              <5> on input line 124.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 124.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 167.
- (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 177--179
-  []  
- []
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:136: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   0
+l.136 Independientes}{Valdivia, Chile}
+                                       \resumeSubSubheading{FullStack Engineer
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:136: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.136 Independientes}{Valdivia, Chile}
+                                       \resumeSubSubheading{FullStack Engineer
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 185--187
-  []  
- []
-
-
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 193--194
-  []  
- []
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:136: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.136 Independientes}{Valdivia, Chile}
+                                       \resumeSubSubheading{FullStack Engineer
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 198.
+(Font)              <10.95> on input line 136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 198.
+(Font)              <8> on input line 136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 198.
+(Font)              <6> on input line 136.
 
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 239--241
+Overfull \hbox (350.75325pt too wide) in alignment at lines 136--136
+[] [] 
+ []
+
+
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 136--137
+  []  
+ []
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:144: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   0
+l.144 ...heading{West Ingenieria}{Valdivia, Chile}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:144: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.144 ...heading{West Ingenieria}{Valdivia, Chile}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:144: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.144 ...heading{West Ingenieria}{Valdivia, Chile}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (160.29079pt too wide) in alignment at lines 144--144
+[] [] 
+ []
+
+
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 144--146
   []  
  []
 
 
-Overfull \hbox (13.38333pt too wide) in paragraph at lines 245--247
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 157--158
   []  
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 289--290
-[]  
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:204: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   0
+l.204 ...rsidad Austral de Chile}{Valdivia, Chile}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:204: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.204 ...rsidad Austral de Chile}{Valdivia, Chile}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:204: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.204 ...rsidad Austral de Chile}{Valdivia, Chile}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (234.40729pt too wide) in alignment at lines 204--204
+[] [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 300--301
-[]  
+Overfull \hbox (13.38333pt too wide) in paragraph at lines 204--206
+  []  
  []
 
-[2] (build/cvEnzoVera.aux
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:236: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   0
+l.236 CI/CD}}{May 2025}
+                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:236: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.236 CI/CD}}{May 2025}
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:236: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.236 CI/CD}}{May 2025}
+                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (340.73326pt too wide) in alignment at lines 236--236
+[] [] 
+ []
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:253: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   0
+l.253 Pages}}{May 2025}
+                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:253: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.253 Pages}}{May 2025}
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:253: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.253 Pages}}{May 2025}
+                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (367.83849pt too wide) in alignment at lines 253--253
+[] [] 
+ []
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:270: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   0
+l.270 ...a Civil en Informática}{Valdivia, Chile}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:270: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.270 ...a Civil en Informática}{Valdivia, Chile}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/eevp/workspaceLatex/cv_latex-1/cvAts_claude.tex:270: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.270 ...a Civil en Informática}{Valdivia, Chile}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (230.9373pt too wide) in alignment at lines 270--270
+[] [] 
+ []
+
+[2] (build/cvAts_claude.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `cvEnzoVera.out' has not changed.
-(rerunfilecheck)             Checksum: FE8D51F5E00E140ED705AAE6DC62D76E;574.
+
+Package rerunfilecheck Warning: File `cvAts_claude.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cvAts_claude.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  AD9B443F49D1438FAC3ACC2694AB7A77;761.
  ) 
 Here is how much of TeX's memory you used:
- 11782 strings out of 480247
- 182674 string characters out of 5896151
- 505640 words of memory out of 5000000
- 29540 multiletter control sequences out of 15000+600000
- 524921 words of font info for 71 fonts, out of 8000000 for 9000
+ 11244 strings out of 480247
+ 176878 string characters out of 5896151
+ 498957 words of memory out of 5000000
+ 29021 multiletter control sequences out of 15000+600000
+ 523606 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,63p,334b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on build/cvEnzoVera.pdf (2 pages, 148118 bytes).
+ 60i,11n,63p,274b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on build/cvAts_claude.pdf (2 pages, 172755 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,11 +6,9 @@
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
-
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
@@ -33,20 +31,10 @@
 \usepackage{marvosym}  % para \Envelope
 
 
-%%\usepackage[scale=0.85]{geometry}
+
 \usepackage{ragged2e} % Para justificar texto
 
-%----------FONT OPTIONS----------
-% sans-serif
-%\usepackage[sfdefault]{FiraSans}
-%\usepackage[sfdefault]{roboto}
-%\usepackage[sfdefault]{noto-sans}
-%\usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
+%-------------------------
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -127,13 +115,12 @@
 %\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemi{-}
 \renewcommand\labelitemii{-}
-%\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\renewcommand\labelitemiii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemiii{-}
 
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=3em]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=2em]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
 
 %-------------------------------------------
@@ -164,7 +151,7 @@
 \begin{center}
   %\scshape
   {\Huge Enzo Edgardo Vera Pagnard} \\[4pt]
-  Backend Engineer / Full-Stack Developer | Node.js, Go, PL/SQL | Cloud \& Microservices\\[4pt]
+  Senior Backend Engineer | Node.js, Go, PL/SQL | Cloud \& Microservices\\[4pt]
   \small
   Tel.: +56994314999\ \textbar\ Valdivia, Chile\ \textbar\ 
   Email:\href{mailto:contacto@enzovera.dev}{contacto@enzovera.dev}\ \textbar\ 
@@ -177,11 +164,12 @@
 \vspace{-6pt}
 \section{Resumen Profesional}
 \begin{justify}
-Backend Engineer con 7+ años desarrollando sistemas enterprise escalables y distribuidos
-de alta disponibilidad (99.9\%) y procesamiento masivo de datos.
-Especialista en Node.js, Go y Oracle PL/SQL, con experiencia en microservicios,
-APIs REST y automatización de procesos críticos en entornos cloud.
-Experiencia en liderazgo técnico y mejora continua basada en métricas.
+Backend Engineer con más de 7 años de experiencia diseñando y construyendo sistemas backend distribuidos y de alta disponibilidad (99.9\%).
+Especialista en Node.js, Go y Oracle PL/SQL, enfocado en el desarrollo de
+APIs REST escalables, aplicaciones intensivas en datos y microservicios cloud-native.
+Experiencia en optimización de rendimiento backend, integración con
+sistemas enterprise y procesamiento confiable a gran escala operativa.
+
 \end{justify}
 %-----------EXPERIENCE-----------
 \section{Experiencia}
@@ -190,48 +178,66 @@ Experiencia en liderazgo técnico y mejora continua basada en métricas.
         \resumeSubSubheading{FullStack Engineer (Freelance)}{04/2025 - Presente}
           \resumeItemListStart
             \resumeItem{Diseño y desarrollo de APIs REST y microservicios en Go aplicando SOLID y Clean Architecture.}
-            \resumeItem{Desarrollo de aplicaciones web con Astro y arquitecturas serverless (Vercel, Cloudflare Pages).}  
             \resumeItem{Implementación de CI/CD y prácticas de testing (TDD).}
-
+            \resumeItem{Desarrollo de aplicaciones web con Astro y arquitecturas serverless (Vercel, Cloudflare Pages).}  
             \resumeItemListEnd
 
       \resumeSubheading{West Ingenieria}{Valdivia, Chile}
-        \resumeSubSubheading{Engineering Lead}{09/2024 - 03/2025}
+        \resumeSubSubheading{Engineering Lead (Backend Focus)}{09/2024 - 03/2025}
           \resumeItemListStart
-              \resumeItem{Lideré equipo ágil de 4 desarrolladores (Scrum/Kanban).}
-              \resumeItem{Implementé procesos de code review y pair programming, reduciendo bugs en producción.}
-              \resumeItem{Coordiné comunicación técnica con stakeholders internos y externos, cumpliendo SLAs.}
-              \resumeItem{Mentoría técnica en arquitectura backend y buenas prácticas.}
+          \resumeItem{Diseñé y evolucioné servicios backend y APIs REST, manteniendo alta disponibilidad y estándares de calidad.}
+            \resumeItem{Definí lineamientos técnicos para el desarrollo backend, reduciendo incidentes en producción.}
+            \resumeItem{Supervisé revisiones de código y calidad backend en un equipo de 4 desarrolladores.}
+            \resumeItem{Coordiné entregas técnicas backend con áreas internas y externas, cumpliendo SLAs.}
           \resumeItemListEnd
         \resumeSubSubheading{Software Engineer}{04/2017 - 08/2024}
           \resumeItemListStart
-            \resumeItem{Proyecto: Sistema de Gestión de Operaciones en Tiempo Real - Enex S.A.}
-              \resumeItemListStart
-                  \resumeItem{Diseñé e implementé arquitectura full-stack (Node.js, TypeScript, Oracle) para sistema de tracking que procesa +400 operaciones diarias gestionando flota de 800+ unidades en tiempo real, desarrollando APIs REST escalables y módulos frontend (JavaScript, HTML5, CSS) con alta disponibilidad (99.9\% uptime).}
-                  \resumeItem{Integré plataforma con sistemas enterprise (JD Edwards, Power BI) mediante APIs y Oracle PL/SQL, habilitando reportería analytics en tiempo real.}
-                  \resumeItem{Administré bases de datos Oracle en producción y lideré resolución de incidentes críticos con tiempo de respuesta <30 minutos.}
-              \resumeItemListEnd 
-            \resumeItem{Proyecto: Sistema de Gestión de Operaciones en Tiempo Real para sector Forestal - Forestal Arauco, Forestal y Maderas Anchile, Trans Pacific Fibre entre otros.}
-              \resumeItemListStart
-                  \resumeItem{Co-diseñé arquitectura de módulo que procesa +80K documentos mensuales, reduciendo tiempo de emisión de 20 min a <5 min (ahorro del 75\%)}
-                  \resumeItem{Implementé lógica de negocio compleja con Oracle PL/SQL y Node.js para validación automática de datos y generación dinámica de documentos.}
-                  \resumeItem{Automaticé cálculo de proformas mediante algoritmos optimizados, reduciendo carga administrativa en 60\% y eliminando errores manuales.}
-                  \resumeItem{Desarrollé integración API con sistema móvil para sincronización de datos en campo y operaciones offline-first.} 
-              \resumeItemListEnd 
-              \newpage
-            \resumeItem{Proyecto: Plataforma de Gestión de Operaciones - Wing Suite - Unilever, Colun, Arauco Logistica entre otros.}
-              \resumeItemListStart
-                \resumeItem{Diseñé e implementé módulo de control operacional que coordina +100 operaciones diarias mediante arquitectura de microservicios.}
-                \resumeItem{Implementé lógica de negocio para la solicitud automatizada de documentos operativos, reduciendo tareas manuales, errores y demoras administrativas.}
-                \resumeItem{Implementé sistema de enrolamiento y asignación de tokens para recepción de datos IoT (GPS), eliminando duplicación de datos y mejorando trazabilidad}                
-              \resumeItemListEnd 
+            \resumeItem{\textbf{Proyecto – Fueltrack – Enex S.A. (Plataforma de Operaciones en Tiempo Real):}
+            Diseñé e implementé servicios backend de alta disponibilidad que procesan
+            más de 400 operaciones diarias y gestionan flotas de 800+ unidades activas,
+            alcanzando un 99.9\% de uptime.}
+
+            \resumeItem{Desarrollé APIs REST escalables usando Node.js, TypeScript y Oracle PL/SQL,
+            integrando sistemas enterprise como JD Edwards y Power BI para reportería
+            en tiempo real.}
+
+            \resumeItem{Administré bases de datos Oracle en producción y lideré la resolución
+            de incidentes críticos con tiempos de respuesta inferiores a 30 minutos.}
+
+            \vspace{2pt}
+
+            \resumeItem{\textbf{Proyecto – Forestruck – Sector Forestal (Arauco, Anchile, Trans Pacific Fibre):}
+            Co-diseñé módulos backend que procesan más de 80K documentos mensuales,
+            reduciendo el tiempo de emisión de 20 minutos a menos de 5 minutos
+            (ahorro del 75\%).}
+
+            \resumeItem{Implementé lógica de negocio compleja en Oracle PL/SQL y Node.js para
+            validación automática de datos y generación dinámica de documentos.}
+
+            \resumeItem{Automaticé cálculos backend y proformas, reduciendo la carga
+            administrativa en un 60\% y eliminando errores manuales.}
+
+            \vspace{2pt}
+
+            \resumeItem{\textbf{Proyecto – Wing Suite (Unilever, Colun, Arauco Logística):}
+            Diseñé e implementé microservicios backend que coordinan más de
+            100 operaciones diarias en entornos distribuidos.}
+
+            \resumeItem{Implementé lógica de negocio para la solicitud automatizada de documentos operativos, reduciendo tareas manuales, errores y demoras administrativas.}
+
+            \resumeItem{Implementé servicios de enrolamiento y asignación de tokens para
+            recepción de datos IoT (GPS), mejorando la trazabilidad y eliminando
+            duplicación de información.}
+
+            \resumeItem{Desarrollé integraciones backend con sistemas móviles y
+              arquitecturas offline-first para operaciones en terreno.}
           \resumeItemListEnd
 
-      %\resumeSubHeadingListEnd
+
 
        %Compañía 2
       \resumeSubheading{Universidad Austral de Chile}{Valdivia, Chile}
-        \resumeSubSubheading{IT Support Engineer}{2014 - 2017}
+        \resumeSubSubheading{IT Support Engineer}{03/2014 - 03/2017}
           \resumeItemListStart
             \resumeItem{Soporte técnico y mantenimiento de sitio web institucional en la Facultad de Ciencias Jurídicas y Sociales.}  
           \resumeItemListEnd
@@ -325,16 +331,13 @@ Experiencia en liderazgo técnico y mejora continua basada en métricas.
 %-----------PROGRAMMING SKILLS-----------
 \section{Habilidades}
  \begin{itemize}[leftmargin=0in,  label={}] %,
-    \small{
-      \item{
-        \textbf{Languages \& Frameworks}{: JavaScript, TypeScript, Node.js, Go, Oracle PL/SQL, Astro, HTML5, CSS3, PHP, Python, Java} \\
-        \textbf{Databases}{: PostgreSQL, Oracle, MongoDB, MySQL} \\ 
-        \textbf{DevOps \& Tools}{: Docker, Git, CI/CD (GitLab, GitHub Actions), Linux/Unix, Shell scripting} \\
-        \textbf{Architecture \& Patterns}{: Microservices, REST APIs, Clean Architecture, SOLID Principles, Design Patterns, Event-Driven Architecture} \\
-        \textbf{Methodologies}{: Agile (Scrum, Kanban), TDD, Code Review, Pair Programming} \\
-        \textbf{Leadership \& Soft Skills}{: Technical Team Leadership, Mentoring, Stakeholder Communication, Problem-Solving, Critical Thinking} \\
-      }
-     }
+   \item{
+    \textbf{Backend:} Node.js, Go, TypeScript, REST APIs \\
+    \textbf{Databases:} Oracle PL/SQL, PostgreSQL, MongoDB, MySQL \\
+    \textbf{Cloud \& DevOps:} Docker, CI/CD, Linux/Unix, Serverless \\
+    \textbf{Architecture:} Microservices, Clean Architecture, SOLID, Event-Driven Systems \\
+    \textbf{Tools:} Git, Shell scripting
+  }
  \end{itemize}
  \vspace{-16pt}
 

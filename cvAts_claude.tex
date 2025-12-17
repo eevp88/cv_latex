@@ -1,0 +1,273 @@
+%------------------------- 
+% Resume in Latex % Author : Jake Gutierrez 
+% Based off of: https://github.com/sb2nov/resume % License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article} 
+\usepackage{latexsym}
+\usepackage[empty]{fullpage} 
+\usepackage{titlesec} 
+\usepackage[usenames,dvipsnames]{color} 
+\usepackage{verbatim} 
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr} 
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{xcolor} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage[spanish]{babel} 
+\usepackage{lmodern}
+\usepackage{ragged2e}
+
+%-------------------------
+
+\pagestyle{fancy} 
+\fancyhf{} 
+\fancyfoot{} 
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins \addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in} \addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in} \addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom 
+\raggedright 
+\setlength{\tabcolsep}{0in} 
+\setlength{\footskip}{4.08003pt}
+
+% Sections formatting 
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable 
+\pdfgentounicode=1
+
+%------------------------- 
+% Custom commands 
+\newcommand{\resumeItem}[1]{
+    \item\small{ 
+        #1 
+        }
+    }
+
+\newcommand{\classesList}[4]{ 
+    \item\small{ 
+        {#1 #2 #3 #4 \vspace{-2pt}} 
+    } 
+}
+
+\newcommand{\resumeSubheading}[2]{ \vspace{-1pt}\item \begin{tabular*}{1.
+0\textwidth}[t]{l@{\extracolsep{\fill}}r} \textbf{#1} & \textbf{\small #2} \\
+\end{tabular*} }
+
+\newcommand{\resumeSubSubheading}[2]{ \vspace{-2pt} \hspace{1em}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r} {\color{gray!40!
+black}\textbf{\small #1}} & \small\textit{#2} \\ \end{tabular*}\vspace{-4pt} }
+
+\newcommand{\resumeEducationHeading}[4]{ \vspace{-1pt}\item \begin{tabular*}{1.
+0\textwidth}[t]{l@{\extracolsep{\fill}}r} \textbf{#1} & \textbf{\small #2} \\ #3
+& #4 \\ \end{tabular*} }
+
+\newcommand{\resumeProjectHeading}[2]{ \item \begin{tabular*}{1.
+001\textwidth}{l@{\extracolsep{\fill}}r} \small#1 & \textbf{\small #2}\\
+\end{tabular*}\vspace{-7pt} }
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\bullet$} 
+\renewcommand\labelitemii{$\circ$}
+\renewcommand\labelitemiii{-}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in,
+label={}]} \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=2em]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
+
+%------------------------------------------- %%%%%% RESUME STARTS HERE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING---------- 
+\begin{center} {\Huge Enzo Edgardo Vera Pagnard}
+\\[8pt] {\Large Senior Backend Engineer}\\[6pt] \small Teléfono: +56 9 9431
+4999\\ Email: \href{mailto:contacto@enzovera.dev}{contacto@enzovera.dev}\\
+LinkedIn: \href{https://www.linkedin.com/in/enzoverapagnard/}{linkedin.
+com/in/enzoverapagnard}\\ GitHub: \href{https://github.com/eevp88}{github.
+com/eevp88}\\ Web: \href{https://enzovera.dev}{enzovera.dev}\\ Ubicación:
+Valdivia, Chile \end{center}
+
+%-----------RESUMEN----------------- 
+\vspace{-6pt}
+ \section{Resumen Profesional} 
+ \begin{justify} Backend Engineer con más de 7 años de experiencia
+diseñando y construyendo sistemas backend distribuidos y de alta disponibilidad
+(99.9 por ciento). Lideré implementación de sistemas que procesan más de 80K
+documentos mensuales, reduciendo tiempos operativos en 75 por ciento.
+Especialista en Node.js, Go y Oracle PL/SQL, enfocado en el desarrollo de APIs
+REST escalables, aplicaciones intensivas en datos y microservicios cloud-native.
+Experiencia probada en optimización de rendimiento backend, integración con
+sistemas enterprise, liderazgo técnico y procesamiento confiable a gran escala
+operativa. 
+\end{justify}
+
+%-----------COMPETENCIAS CLAVE----------- 
+\vspace{-4pt} 
+\section{Competencias Clave} 
+\begin{itemize}[leftmargin=0.15in, label=$\bullet$, itemsep=0pt] \small
+\item Arquitectura de Sistemas Distribuidos y Microservicios \item Desarrollo de
+APIs REST de Alto Rendimiento (99.9\% uptime) \item Integración de Sistemas
+Enterprise (JD Edwards, Power BI) \item Liderazgo Técnico y Mentoría de Equipos
+de Desarrollo \item Optimización de Procesos Backend (reducción de 75\% en
+tiempos) \item Procesamiento de Datos a Gran Escala (80K+ documentos mensuales)
+\end{itemize} 
+\vspace{-8pt}
+
+%-----------EXPERIENCE----------- 
+\section{Experiencia}
+\resumeSubHeadingListStart 
+\resumeSubheading{Desarrollo Profesional / Proyectos
+Independientes}{Valdivia, Chile} \resumeSubSubheading{FullStack Engineer
+(Freelance)}{Abr 2025 - Presente} \resumeItemListStart \resumeItem{Diseño y
+desarrollo de APIs REST y microservicios en Go aplicando principios SOLID y
+Clean Architecture.} \resumeItem{Implementación de pipelines CI/CD y prácticas
+de testing automatizado (TDD).} \resumeItem{Desarrollo de aplicaciones web
+modernas con Astro y arquitecturas serverless (Vercel, Cloudflare Pages).}
+\resumeItemListEnd
+
+\resumeSubheading{West Ingenieria}{Valdivia, Chile}
+\resumeSubSubheading{Backend Engineering Lead}{Sep 2024 - Mar 2025}
+\resumeItemListStart 
+\resumeItem{Diseñé y evolucioné servicios backend y APIs
+REST, manteniendo alta disponibilidad y estándares de calidad en producción.}
+\resumeItem{Definí lineamientos técnicos y estándares de arquitectura backend,
+reduciendo incidentes en producción en un 40 por ciento durante 6 meses.}
+\resumeItem{Lideré revisiones de código (code review) y pair programming con
+equipo de 4 desarrolladores, mejorando la velocidad de entrega en un 25 por
+ciento.} 
+\resumeItem{Coordiné entregas técnicas backend con stakeholders
+internos y externos, cumpliendo el 100 por ciento de los SLAs establecidos.}
+\resumeItemListEnd 
+\resumeSubSubheading{Software Engineer}{Abr 2017 - Ago 2024}
+\resumeItemListStart 
+\resumeItem{\textbf{Fueltrack | Enex S.A. - Plataforma de
+Operaciones en Tiempo Real:} Diseñé e implementé servicios backend de alta
+disponibilidad que procesan más de 400 operaciones diarias y gestionan flotas de
+800+ unidades activas, alcanzando un 99.9 por ciento de uptime.}
+
+\resumeItem{Desarrollé APIs REST escalables usando Node.js, TypeScript y
+Oracle PL/SQL, integrando sistemas enterprise como JD Edwards y Power BI para
+reportería analytics en tiempo real.}
+
+\resumeItem{Administré bases de datos Oracle en producción y lideré la
+resolución de incidentes críticos con tiempos de respuesta inferiores a 30
+minutos.}
+
+\vspace{2pt}
+
+\resumeItem{\textbf{Forestruck | Sector Forestal (Arauco, Anchile, Trans
+Pacific Fibre):} Co-diseñé módulos backend que procesan más de 80K documentos
+mensuales, reduciendo el tiempo de emisión de 20 minutos a menos de 5 minutos
+(ahorro del 75 por ciento).}
+
+\resumeItem{Implementé lógica de negocio compleja en Oracle PL/SQL y Node.js
+para validación automática de datos y generación dinámica de documentos.}
+
+\resumeItem{Automaticé cálculos backend y proformas mediante algoritmos
+optimizados, reduciendo la carga administrativa en un 60 por ciento y eliminando
+errores manuales.}
+
+\vspace{2pt}
+
+\resumeItem{\textbf{Wing Suite | Unilever, Colun, Arauco Logística:} Diseñé e
+implementé microservicios backend que coordinan más de 100 operaciones diarias
+en entornos distribuidos de alta concurrencia.}
+
+\resumeItem{Implementé lógica de negocio para la solicitud automatizada de
+documentos operativos, reduciendo tareas manuales, errores y demoras
+administrativas.}
+
+\resumeItem{Desarrollé servicios de enrolamiento y asignación de tokens para
+recepción de datos IoT (GPS), mejorando la trazabilidad operacional y eliminando
+duplicación de información.}
+
+\resumeItem{Implementé integraciones backend con sistemas móviles y
+arquitecturas offline-first para operaciones en terreno sin conectividad.}
+\resumeItemListEnd
+
+\resumeSubheading{Universidad Austral de Chile}{Valdivia, Chile}
+\resumeSubSubheading{IT Support Engineer}{Mar 2014 - Mar 2017}
+\resumeItemListStart 
+\resumeItem{Soporte técnico y mantenimiento de
+infraestructura web institucional en la Facultad de Ciencias Jurídicas y
+Sociales.} 
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS----------- 
+\vspace{-4pt} 
+\section{Habilidades Técnicas} 
+\begin{itemize}[leftmargin=0.15in, label={}] 
+    \small \item
+\textbf{Lenguajes y Frameworks:} Node.js, Go, TypeScript, JavaScript, PL/SQL
+\item \textbf{Bases de Datos:} Oracle Database, PostgreSQL, MongoDB, MySQL \item
+\textbf{Cloud y DevOps:} Docker, CI/CD, Linux, Unix, Serverless Architecture
+\item \textbf{Arquitectura:} Microservices, REST APIs, Clean Architecture, SOLID
+Principles, Event-Driven Architecture \item \textbf{Metodologías:} Agile, Scrum,
+Kanban, TDD, Code Review, Pair Programming \item \textbf{Integraciones
+Enterprise:} JD Edwards, Power BI, IoT Systems, GPS Tracking \item
+\textbf{Herramientas:} Git, Shell Scripting, Vercel, Cloudflare Pages
+\end{itemize} 
+\vspace{-12pt}
+
+%-----------PROJECTS----------- 
+\section{Proyectos Destacados} 
+\vspace{-5pt}
+\resumeSubHeadingListStart 
+\resumeProjectHeading {\textbf{\href{https://enzovera.
+dev/}{enzovera.dev}} $|$ \emph{Astro, TypeScript, HTML5, CSS3, Vercel,
+CI/CD}}{May 2025} 
+\resumeItemListStart 
+\resumeItem{Portafolio personal desarrollado con Astro (framework SSG moderno) enfocado en web performance y SEO
+optimization.} 
+\resumeItem{Implementé command palette interactiva con JavaScript
+vanilla para navegación rápida (cambio de tema, impresión CV, enlaces sociales).
+}
+\resumeItem{Diseño responsivo mobile-first con sistema de theming dinámico y
+accesibilidad web (WCAG).} 
+\resumeItem{Deploy automatizado en Vercel con edge
+functions, CI/CD integrado y rollback automático.} \resumeItem{Lighthouse score:
+100/100 en performance, accessibility y SEO.} 
+\resumeItemListEnd 
+\vspace{-13pt}
+
+\resumeProjectHeading {\textbf{\href{https://imscindustrial.
+cl/}{imscindustrial.cl}} $|$ \emph{Astro, TypeScript, HTML5, CSS3, Cloudflare
+Pages}}{May 2025} 
+\resumeItemListStart 
+\resumeItem{Sitio web corporativo para empresa industrial desarrollado con stack moderno JAMstack.}
+\resumeItem{Arquitectura JAMstack optimizada para carga rápida (menor a 2
+segundos) y mejor posicionamiento SEO.} 
+\resumeItem{Formulario de contacto con validación client-side, protección anti-spam y gestión de envíos.}
+\resumeItem{Diseño responsivo adaptado a necesidades del cliente con enfoque en
+conversión y experiencia de usuario.} 
+\resumeItem{Desplegado en Cloudflare Pages aprovechando edge network global para latencia mínima y alta disponibilidad.}
+\resumeItemListEnd 
+\vspace{-13pt} 
+\resumeSubHeadingListEnd 
+\vspace{-6pt}
+
+%-----------EDUCATION----------- 
+\section{Educación} 
+\resumeSubHeadingListStart
+\resumeEducationHeading {Universidad Austral de Chile}{2013} {Ingeniería Civil en Informática}{Valdivia, Chile} 
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+\end{document}
